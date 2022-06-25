@@ -1,0 +1,31 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:linear-gradient(to right, antiquewhite, #bab67c) ;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+button {
+    padding: 5px;
+    background-color: blue;
+    border: none;
+    box-shadow: 2px ;
+    font-size: 15px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
